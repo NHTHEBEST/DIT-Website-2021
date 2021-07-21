@@ -46,3 +46,10 @@ body {
 #mainNav {
     background-color: rgba(3, 25,39, 0.9);
 }
+
+a{
+    color:var(--c1);
+}
+a:hover{
+    color:var(--c1);
+}
