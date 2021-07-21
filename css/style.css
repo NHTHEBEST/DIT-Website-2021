@@ -53,3 +53,12 @@ a{
 a:hover{
     color:var(--c1);
 }
+
+header {
+    background-color: rgba(3, 25,39, 0.9);
+}
+
+.site-heading{
+    margin: 0;
+    padding: 40px;
+}
