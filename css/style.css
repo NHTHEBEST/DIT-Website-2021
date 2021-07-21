@@ -27,7 +27,11 @@ body {
     background-color: var(--c3);
     border-color: var(--c3);
 }
-
+.btn-primary:hover {
+    color: #000;
+    background-color: #badef5;
+    border-color: var(--c3);
+}
 .bg-faded {
     background-color: var(--c5);
 }
