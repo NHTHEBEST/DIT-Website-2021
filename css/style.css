@@ -1,3 +1,6 @@
+/*
+
+*/
 :root {
     --c1: #BA1200;
     --c2: #031927;
@@ -6,59 +9,102 @@
     --c5: #c8e0f4;
 }
 
+/*
 
+*/
 .text-primary{
     color: #e6a756 !important;
     color: var(--c3) !important;
 }
+/*
+
+*/
 body {
     background-image:linear-gradient(rgba(3, 25,39, 0.65), rgba(3, 25,39, 0.65)), url(../assets/img/bg.jpg);
 }
+/*
+
+*/
 .text-faded {
     color: var(--c5);
 }
+/*
 
+*/
 #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
 }
+/*
 
+*/
 .btn-primary {
     color: #000;
     background-color: var(--c3);
     border-color: var(--c3);
 }
+/*
+
+*/
 .btn-primary:hover {
     color: #000;
     background-color: #badef5;
     border-color: var(--c3);
-}
+}/*
+
+*/
 .bg-faded {
     background-color: var(--c5);
 }
+/*
 
+*/
 .footer {
     background-color: rgba(3, 25,39, 0.9);
 }
+/*
 
+*/
 .cta {
     background-color: rgba(80, 138, 168, 0.9);
 }
+/*
+
+*/
 #mainNav {
     background-color: rgba(3, 25,39, 0.9);
 }
+/*
 
+*/
 a{
     color:var(--c1);
 }
+/*
+
+*/
 a:hover{
     color:var(--c1);
 }
+/*
 
+*/
 header {
     background-color: rgba(3, 25,39, 0.9);
 }
 
+/*
+
+*/
 .site-heading{
     margin: 0;
     padding: 40px;
+}
+
+
+/*
+Title color when in mobile
+*/
+#mainNav .navbar-brand
+{
+    color: var(--c5);
 }
