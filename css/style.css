@@ -10,6 +10,12 @@ Define color schema
 }
 
 /*
+Primary text color
+*/
+.text-primary{
+    color: var(--c3) !important;
+}
+/*
 backround image 
 */
 body {
